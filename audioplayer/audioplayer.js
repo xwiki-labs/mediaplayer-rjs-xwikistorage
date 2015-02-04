@@ -136,9 +136,11 @@
             return g.getDeclaredGadget("offline");
         }).push(function(gadget) {
             return gadget.createJio({
-                type: "indexeddb",
-                database: "musicLibrary",
-                _unite: 5e6
+                //type: "indexeddb",
+                //database: "musicLibrary",
+                //unite: 5e6
+                type: "xwiki",
+                xwikiUrl: "http://localhost:8080"
             });
         }).push(function() {
             var controlPanel = g.__element.getElementsByClassName("page")[0];

@@ -96,6 +96,7 @@
                 }
                 queue.push(post);
             }).fail(function(error) {
+                console.log(error);
                 if (!(error instanceof RSVP.CancellationError)) {
                     info_context.innerHTML += input_context.files[uploaded].name + " " + error.target.error.name;
                     //xxx
