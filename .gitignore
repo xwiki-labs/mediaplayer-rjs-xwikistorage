@@ -6,6 +6,7 @@
 atlassian-ide-plugin.xml
 
 # Other
+target
 *.log.*
 *.log
 *~
