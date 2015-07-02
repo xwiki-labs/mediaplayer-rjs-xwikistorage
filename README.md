@@ -1,3 +1,5 @@
+[![XWiki labs logo](https://raw.githubusercontent.com/xwiki-labs/xwiki-labs-logo/master/projects/xwikilabs/xlabs-project.png "XWiki labs")](https://labs.xwiki.com/xwiki/bin/view/Main/WebHome)
+
 # Introduction
 
 This is an integration of the OfficeJS Media Player application ([http://mediaplayer.app.officejs.com/](http://mediaplayer.app.officejs.com)) with XWiki. It uses XWiki as a [JIO](http://www.j-io.org) storage and also provides an XWiki extension which embeds the Media Player in an XWiki page.
